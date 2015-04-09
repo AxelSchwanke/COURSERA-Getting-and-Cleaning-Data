@@ -80,8 +80,8 @@ names(data) <- gsub("_$","", names(data))
 
 
 # 
-# 5. Create a second, independent tidy data set with 
-#    the average of each variable for each activity and each subject.
+# 5. From the data set in step 4, Create a second, independent tidy data set 
+#    with the average of each variable for each activity and each subject.
 #
 
 require(reshape2)
