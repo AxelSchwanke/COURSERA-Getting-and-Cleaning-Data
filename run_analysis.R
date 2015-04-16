@@ -1,3 +1,7 @@
+
+setwd("E:/MyDocuments/UNIVERSITIES/COURSERA - Getting and Cleaning Data/course project/UCI HAR Dataset")
+
+
 #
 # 1. Read train- and test-datasets and merge them to create one data set
 #
@@ -63,8 +67,6 @@ data$activity <- activityLabels[data$activity,2]
 
 
 #
-# 4. Appropriately labels the data set with descriptive activity names.
-# or better
 # 4. Appropriately labels the data set with descriptive variable or feature (column) names
 #
 
